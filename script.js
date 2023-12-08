@@ -8,6 +8,7 @@ document.getElementById("btn").onclick = function () {
     weight = document.getElementById("weight").value;
     weight = Number(weight);
     bmi = weight / (height/100) ** 2;
+    
     console.log(bmi);
 
     if (bmi < 18.5) {
